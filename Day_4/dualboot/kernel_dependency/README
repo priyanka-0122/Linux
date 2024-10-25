@@ -1,0 +1,9 @@
+sudo modinfo independent.ko	// Used to print the info of independent.ko
+sudo modinfo dependent.ko
+sudo insmod independent.ko	// Used to insert the independent.ko into the kernel for execution
+				// First the independent file will be inserted then the dependent file
+sudo dmesg			// Used to run the inserted .ko(kernel) file
+sudo insmod dependent.ko
+sudo dmesg
+sudo rmmod independent.ko	// Used to unload from the particular kernel file
+lsmod|head			// To list all the kernel loaded and also display their information

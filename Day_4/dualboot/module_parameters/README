@@ -1,0 +1,3 @@
+sudo insmod fact.ko num=6
+sudomesg
+sudo rmmod fact.ko

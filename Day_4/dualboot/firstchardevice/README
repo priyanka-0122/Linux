@@ -1,0 +1,7 @@
+cat /proc/devices/
+sudo insmod p1.ko
+sudo dmesg
+cat /proc/devices
+sudo rmmode p1.ko
+
+
